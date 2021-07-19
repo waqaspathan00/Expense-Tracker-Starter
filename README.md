@@ -20,7 +20,7 @@ print(expenses[“media”])
 
 # Moving forward
 Create a variable called “left_to_allocate”
-The value of it is the monthly income
+The value of it is the monthly income which the user will input
 This variable will represent the amount of available income we have left to allocate
 
 Repeat the process of asking the user to enter categories until:
