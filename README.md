@@ -5,11 +5,11 @@ This project is a starter file to practice python concepts like: dictionaries, l
 We want to help users manage their expenses. Visualizing data makes it much easier to manage. 
 
 # Where do I start?
-Function stubs have already been made for you and comments that describe what theyre used for. However, you won't be able to use these right off the bat
-Build out the project piece by piece, don't try and build the final version of the project on your first try.
+Function stubs have already been made for you and comments that describe what theyre used for. However, you won't be able to use these right off the bat.  
+Build out the project piece by piece, don't try and build the final version of the project on your first try.  
 Instead, think about how you can break the project into pieces and build out those pieces instead.
 
-For example, the first piece you can start by building is getting data into the expenses dictionary
+For example, the first piece you can start by building is getting data into the expenses dictionary  
 For this we will need to take user input for the name of a category, how much budget to allocate for it, and then names of purchases that are relevant to the category
 
 Example of what data might look like inside the expenses dictionary when it is printed
@@ -19,19 +19,21 @@ print(expenses[“media”])
 ```
 
 # Moving forward
-Create a variable called “left_to_allocate”
-The value of it is the monthly income which the user will input
+Create a variable called “left_to_allocate”  
+The value of it is the monthly income which the user will input  
 This variable will represent the amount of available income we have left to allocate
 
 Repeat the process of asking the user to enter categories until:
   - The user enters “done” for the name of a category
   - left_to_allocate equals 0
+
 If the user enters “done” then create a category named “Miscellaneous” with the budget allocated to left_to_allocate
 
-Once you are able to produce this, then begin implementing saving and loading into your program. 
-Always remember, load first, save later. We always want to load data before starting a program. Inversely, we always want to save our data before closing a program.  Just like a video game. 
-Write the save function that writes all the data in the expenses variable into a seperate file
-THEN write a load function that loads the data from the file you created into the expenses variable (you will need to use global variables for this. Why in the load function but not the save function?)
+# JSON Usage
+Once you are able to produce this, then begin implementing saving and loading into your program.  
+Always remember, load first, save later. We always want to load data before starting a program. Inversely, we always want to save our data before closing a program.  Just like a video game.  
+Write the save function that writes all the data in the expenses variable into a seperate file.  
+THEN write a load function that loads the data from the file you created into the expenses variable (you will need to use global variables for this. Why do we need to do this in the load function but not the save function?)  
 TIPS/ HINTS/ LINKS:
 - Call the load function before your main logic, call the save function after
 - Use JSON file extension, it uses the same formatting as a python dictionary and NoSQL databases
