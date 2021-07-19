@@ -7,13 +7,10 @@ We want to help users manage their expenses. Visualizing data makes it much easi
 # How do I get this project on my computer?
 - Open terminal and change directory to where the project will reside
 - For example all my python projects are in a folder called "python" on my desktop. My directory path should look like this $ waqaspathan00/Desktop/python
-- Go to the [project landing page](https://github.com/waqaspathan00/Expense-Tracker-Starter) and click on  Code.
-- ![image](https://user-images.githubusercontent.com/67988358/126201715-19385d2c-1e95-4d0c-a92e-0908357f5a0c.png)
+- Go to the [project landing page](https://github.com/waqaspathan00/Expense-Tracker-Starter) and click on  Code ![image](https://user-images.githubusercontent.com/67988358/126201715-19385d2c-1e95-4d0c-a92e-0908357f5a0c.png)
 - While HTTPS tab is selected, copy the link below it
 - Enter the following command into terminal
 ```
-git clone {github project link}
-# EXAMPLE
 git clone https://github.com/waqaspathan00/Expense-Tracker-Starter.git
 ```
 - After this, you should see a folder named Expense-Tracker-Starter in the directory you chose in step 2
