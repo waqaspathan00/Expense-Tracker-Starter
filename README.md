@@ -4,6 +4,22 @@ This project is a starter file to practice python concepts like: dictionaries, l
 # Project Overview
 We want to help users manage their expenses. Visualizing data makes it much easier to manage. 
 
+# How do I get this project on my computer?
+- Open terminal and change directory to where the project will reside
+- For example all my python projects are in a folder called "python" on my desktop. My directory path should look like this $ waqaspathan00/Desktop/python
+- Go to the [project landing page](https://github.com/waqaspathan00/Expense-Tracker-Starter) and click on  Code.
+- ![image](https://user-images.githubusercontent.com/67988358/126201715-19385d2c-1e95-4d0c-a92e-0908357f5a0c.png)
+- While HTTPS tab is selected, copy the link below it
+- Enter the following command into terminal
+```
+git clone {github project link}
+# EXAMPLE
+git clone https://github.com/waqaspathan00/Expense-Tracker-Starter.git
+```
+- After this, you should see a folder named Expense-Tracker-Starter in the directory you chose in step 2
+- You can now open this folder in your editor and 2 files should appear, main.py and README.md
+
+
 # Where do I start?
 Function stubs have already been made for you and comments that describe what theyre used for. However, you won't be able to use these right off the bat.  
 Build out the project piece by piece, don't try and build the final version of the project on your first try.  
