@@ -16,7 +16,7 @@ git clone https://github.com/waqaspathan00/Expense-Tracker-Starter.git
 
 
 # Where do I start?
-Function stubs have already been made for you and comments that describe what theyre used for. However, you won't be able to use these right off the bat.  
+Some function stubs have already been made for you and comments that describe what theyre used for. However, you won't be able to use these right off the bat.  
 Build out the project piece by piece, don't try and build the final version of the project on your first try.  
 Instead, think about how you can break the project into pieces and build out those pieces instead.
 
