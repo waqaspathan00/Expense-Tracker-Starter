@@ -13,7 +13,8 @@ For example, the first piece you can start by building is getting data into the 
 For this we will need to take user input for the name of a category, how much budget to allocate for it, and then names of purchases that are relevant to the category
 
 Example of what data might look like inside the expenses dictionary when it is printed
-```print(expenses[“media”])
+```
+print(expenses[“media”])
 >>> {“media”: [50, [“Youtube”, “CrunchyRoll”]]
 ```
 
